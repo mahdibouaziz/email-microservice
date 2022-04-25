@@ -6,7 +6,7 @@ import { AppController } from './app.controller';
   imports: [
     MailerModule.forRoot({
       transport: {
-        host: 'docker.for.mac.localhost',
+        host: 'localhost',
         port: 1025,
       },
       defaults: {
